@@ -1,0 +1,19 @@
+name: futurice-blogs-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - pandas
+  - beautifulsoup4
+  - numpy
+  - requests
+  - openai
+  - scikit-learn
+  - mlxtend
+  - networkx
+  - spacy
+  - nltk
+  - pip
+  - pip:
+    - streamlit
